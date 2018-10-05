@@ -1,5 +1,6 @@
 body{
     background: aqua;
+    
 }
 nav{
     
@@ -16,13 +17,15 @@ nav ul li a{
 h1{
 	text-align: center;
 	color: blue;
-	padding-top: 50px;
+    padding-top: 50px;
+    font-weight: bold;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h2{
 	text-align: center;
     color: blue;
     text-decoration:underline;
-	padding-top: 50px;
+     font-family: "Gill Sans", sans-serif;
 }
 img{
     display: block;
@@ -32,7 +35,7 @@ img{
     height: 322px;
     border-radius: 170px / 250px;
 }
-p{
+ p{
     text-align: left;
     display: block;
     position: relative;
@@ -40,17 +43,50 @@ p{
     top: 30%;
     margin: auto;
     padding: auto;
-    width: 670px;
-    font-size: 95%;
+    width: 699px;
+    font-size: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+#EarlyLife p{
+    
+        text-align: left;
+        display: block;
+        position: relative;
+        left: 2%; 
+        top: 30%;
+        margin: auto;
+        padding: auto;
+        width: 650px;
+        font-size: 85%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        
+    
+}
+Career p{
+    text-align: left;
+    display: block;
+    position: relative;
+    left: 2%; 
+    top: 30%;
+    margin: auto;
+    padding: auto;
+    width: 699px;
+    font-size: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     
 }
 
 em{
     font-weight: bold;
-    font-size: 115%;
+    font-size: 120%;
+    width: 699px;
 }
 .bright{
-    color:red;
+    color:#ff056d;
 }
 a.spl-linka{
     text-decoration: none;
@@ -58,23 +94,43 @@ a.spl-linka{
     background-color: rgba(131, 187, 185, 0.8);
 }
 .spl-linka{
-    width: 50px;
+    
     height: auto;
+    padding: 5px;
 }
 a.spl-linkb{
     text-decoration: none;
     color: white;
-    background-color: goldenrod;
+    background-color: #ff8e02;
+    padding: 5px;
+}
+
+.interesting h3{
+    
+    
+    color: blue;
+    text-decoration:underline;
+   padding-left: 150px;
 }
 .interesting{
     margin: auto;
     padding: auto;
     display: block;
     position: relative;
-    left: 300px;
+    left: 350px;
+    
 }
-h3{
-    margin: auto;
-    padding: auto;
+iframe{
+    width: 550px;
+    height: 400px;
+}
 
-}
+.interesting ol{
+    font: 100 20px/0.8 'Great Vibes', Helvetica, sans-serif;
+    color: blue;
+    font-weight: bold;
+
+  }
+  
+
+
